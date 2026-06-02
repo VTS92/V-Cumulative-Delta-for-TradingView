@@ -1,4 +1,4 @@
-# V-Cumulative Delta Engine
+# V-Cumulative Delta
 
 **Pine Script v6 | TradingView | Institutional Order Flow Analysis**
 
@@ -14,7 +14,7 @@ The source code of this indicator is **proprietary and not publicly released**. 
 
 ## What it does
 
-V-CVD tracks the net difference between buying and selling pressure in real time, anchored to a configurable reset timeframe. The engine answers one question: **who is in control of the market, and how aggressively?**
+V-Cumulative Delta tracks the net difference between buying and selling pressure in real time, anchored to a configurable reset timeframe. The engine answers one question: **who is in control of the market, and how aggressively?**
 
 The indicator combines four analytical layers:
 
@@ -44,7 +44,24 @@ The indicator combines four analytical layers:
 
 ## Screenshots
 
-*Coming soon — dashboard overview, regime classification examples, divergence detection in action.*
+### Overview — Cumulative Delta with Anchored VWAP (Spot Gold 1h)
+Full system view: VWAP and standard deviation bands on price, V-Cumulative Delta oscillator below, divergences automatically annotated. Dashboard shows WAP Z-Score in elevated state (-1.75σ).
+
+![V-Cumulative Delta Overview](v-cumulative-delta-overview.png)
+
+---
+
+### Dashboard Close-Up — Institutional Metrics
+Zoom on the V-Cumulative Delta oscillator and live metrics dashboard: CVD Delta, Z-Intensity bars, WAP Z-Score, and real-time Flow Regime classification.
+
+![V-Cumulative Delta Dashboard](v-cumulative-delta-dashboard.png)
+
+---
+
+### Divergence Detection (Nasdaq 30m)
+Multi-divergence example: bearish divergence at top with subsequent price exhaustion, bullish divergence at swing low. Orange shock bar highlights statistically elevated volume activity.
+
+![V-Cumulative Delta Divergence](v-cumulative-delta-divergence.png)
 
 ---
 
@@ -61,7 +78,7 @@ This indicator complements the broader V-Suite for TradingView:
 - **[V-SUITE for TradingView](https://github.com/VTS92/V-SUITE-for-TradingView)** — Integrated Pine Script library (V-WAPE, V-Profile Matrix)
 - **[V-Sessions Engine](https://github.com/VTS92/V-SESSIONS-Multi-Timezone-State-Management-Engine-for-TradingView)** — Multi-timezone session engine with intra-session volume profile, anchored VWAP and persistent liquidity tracking
 
-Used together: **V-CVD** identifies *who* is in control · **V-WAPE** identifies *when* aggressive moves occur · **V-Profile Matrix** identifies *where* institutions were active · **V-Sessions** anchors all of this to global market session boundaries.
+Used together: **V-Cumulative Delta** identifies *who* is in control · **V-WAPE** identifies *when* aggressive moves occur · **V-Profile Matrix** identifies *where* institutions were active · **V-Sessions** anchors all of this to global market session boundaries.
 
 ---
 
