@@ -34,7 +34,6 @@ Built and used daily in live trading. Part of the V-Suite — works best combine
 
 ## Screenshots
 
-*(coming soon — updated for the v6 release)*
 ![V-Comulative-Delta1](Screenshot1.png)
 ![V-Comulative-Delta2](Screenshot2.png)
 ![V-Comulative-Delta3](Screenshot3.png)
